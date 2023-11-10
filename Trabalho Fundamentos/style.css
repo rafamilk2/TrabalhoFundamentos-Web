@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.cabecalho {
+  position: fixed;
+  background-color: lightblue;
+  width: 100%;
+  margin: 0;
+  height: 5em;
+  align-items: center;
+  display: flex;
+}
+.cabecalho a {
+  text-decoration: none;
+}
+.cabecalho a:hover {
+  color: yellow;
+}
+.cabecalho header {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  width: 25%;
+  margin: 0 auto;
+  font-size: 75%;
+  white-space: nowrap;
+}
+.cabecalho .lupa {
+  background: url(Imagens/1024px-Search_Icon.svg.png) no-repeat;
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  float: left;
+  margin: 18px;
+  border: none;
+  opacity: 1;
+}
+
+.menu {
+  margin-top: 0px;
+}
