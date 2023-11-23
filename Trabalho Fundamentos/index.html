@@ -5,70 +5,89 @@
     <link rel="stylesheet" href="style.css" />
     <title>Trabalho Fundamentos Web, Rafael Zink, Carlos Weege, Heron</title>
   </head>
-
-  <div class="cabecalho">
-    <form
-      id="Pesquisa"
-      action="https://www.google.com.br/?hl=pt-BR"
-      target="_blank"
-      method="get"
-    >
-      <button class="lupa" type="text"></button>
-    </form>
-    <header>
-      <a href="index.html"><h1>Inteligência Natural</h1></a>
-    </header>
-  </div>
-
   <body>
+    <header class="cabecalho">
+      <form
+        id="Pesquisa"
+        action="https://www.google.com.br/?hl=pt-BR"
+        target="_blank"
+        method="get"
+      >
+        <button class="lupa" type="text"></button>
+      </form>
+      <span class="titulo">
+        <a href="index.html"><img src="Imagens/Logo_Site.png" /></a>
+      </span>
+    </header>
+
     <div class="menu">
       <nav>
         <ol>
           <li>
-            <a href="conteudo1.html" target="_blank"
-              >O que é Inteligência Artificial?</a
-            >
+            <article class="conteudo">
+              <a href="conteudo1.html" rel="Robo" target="_blank">
+                <img src="Imagens/Ai.png" />
+              </a>
+            </article>
+            <div class="text">
+              <a href="conteudo1.html">
+                <h2>O que é Inteligência Artificial?</h2></a
+              >
+            </div>
+          </li>
+
+          <li>
+            <article class="conteudo">
+              <a href="conteudo2.html" rel="Robo" target="_blank">
+                <img src="Imagens/Ai game.png" />
+              </a>
+            </article>
+            <div class="text">
+              <a href="conteudo2.html">
+                <h2>
+                  Como a inteligencia artificial se relaciona com os games.
+                </h2></a
+              >
+            </div>
           </li>
           <li>
-            <a href="conteudo2.html" target="_blank"
-              >Como a Inteligência Artificial se relaciona com os games?</a
-            >
+            <article class="conteudo">
+              <a href="conteudo3.html" rel="Robo" target="_blank">
+                <img src="Imagens/Future in gaming.png" />
+              </a>
+            </article>
+            <div class="text">
+              <a href="conteudo3.html"> <h2>A evolução da Ai nos jogos.</h2></a>
+            </div>
           </li>
           <li>
-            <a href="conteudo3.html" target="_blank">
-              A evolução da aplicação da IA nos jogos.</a
-            >
-          </li>
-          <li>
-            <a href="conteudo4.html" target="_blank"
-              >Projeto automatizado de jogos.</a
-            >
+            <article class="conteudo">
+              <a href="conteudo4.html" rel="Robo" target="_blank">
+                <img src="Imagens/automatizado.png" />
+              </a>
+            </article>
+            <div class="text">
+              <a href="conteudo4.html">
+                <h2>Projeto automatizado de jogos.</h2></a
+              >
+            </div>
           </li>
         </ol>
       </nav>
     </div>
 
-    <div class="conteudo">
-      <h3>Projeto automatizado de jogos</h3>
-      <p>
-        Uma das perspectivas mais emocionantes da Inteligência Artificial (IA)
-        no desenvolvimento de jogos é o projeto automatizado de jogos. Ao
-        treinar modelos de IA em grandes conjuntos de dados de jogos existentes,
-        seria possível criar novos jogos automaticamente, sem intervenção
-        humana. Algoritmos de IA poderiam gerar mecânicas de jogo, níveis,
-        personagens e muito mais, potencialmente reduzindo significativamente o
-        tempo e os custos de desenvolvimento.
-      </p>
-      <p>
-        No entanto, essa tecnologia ainda está em seus estágios iniciais, e
-        ainda não sabemos se os jogos gerados por IA serão capazes de replicar a
-        criatividade e originalidade dos jogos projetados por seres humanos. É
-        um desafio em aberto determinar se a IA pode realmente capturar a
-        essência da imaginação humana e criar experiências de jogo
-        verdadeiramente únicas.
-      </p>
-    </div>
+    <hr />
 
-    <footer></footer>
+    <footer>
+      <img src="Imagens/Logo_Site.png" />
+      <p>
+        Fundado em Novembro de 2023, o Inteligencia Natural é o principal portal
+        de conteúdo<br />
+        direcionado ao mercado de inteligencia Artificial relacionada a jogos no
+        Brasil.
+      </p>
+
+      <address>Email: Intnatural@gmail.com.br</address>
+    </footer>
   </body>
 </html>
