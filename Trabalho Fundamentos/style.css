@@ -3,11 +3,18 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Titillium Web", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.8;
+}
 .cabecalho {
   position: fixed;
-  background-color: rgb(68, 56, 56);
+  background-color: rgb(107, 96, 96);
   width: 100%;
   margin: 0;
   height: 5em;
@@ -72,15 +79,14 @@ nav ol {
 .conteudo img {
   border-radius: 30px;
   height: 240px;
-  margin-left: 2em;
+  margin-left: 4em;
   width: 500px;
 }
-.conteudo a img:hover {
+.conteudo a img:hover,
+.text:hover {
   opacity: 0.8;
 }
-.text a {
-  text-decoration: none;
-}
+
 .text {
   text-align: center;
   margin-top: auto;
@@ -88,6 +94,29 @@ nav ol {
   margin-left: 8em;
   display: flex;
   justify-content: space-around;
+}
+
+.galeria_fundo {
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 100%;
+  display: flex;
+  padding-top: 5em;
+}
+.texto_galeria {
+  display: flex;
+  padding-top: 5em;
+  flex-direction: column;
+  padding-left: 1em;
+}
+.p_galeria {
+  padding: 0, 0, 0, 20px;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  word-spacing: 1px;
+}
+.video {
+  padding-left: 1em;
 }
 
 footer {
