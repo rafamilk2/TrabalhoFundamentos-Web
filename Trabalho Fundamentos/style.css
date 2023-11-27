@@ -110,13 +110,49 @@ nav ol {
   padding-left: 1em;
 }
 .p_galeria {
-  padding: 0, 0, 0, 20px;
+  padding: 0 0 0 20px;
   letter-spacing: 1px;
   word-wrap: break-word;
   word-spacing: 1px;
 }
 .video {
   padding-left: 1em;
+}
+.imagem {
+  padding-left: 1em;
+  margin-left: 0%;
+}
+.formulario{
+  background-color: rgb(86, 86, 197);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow:1;
+  width: 100%;
+  padding: 2em;
+  overflow: auto;
+}
+.texto_formulario{
+  padding-right: 2em;
+}
+.cadastro_formulario{
+  display: flex;
+}
+.cadastro_formulario_item{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-image-width: 1px;
+  font-weight: 400;
+  height: 24px;
+  margin-bottom: 4px;
+  padding-right: 3em;
+}
+.button_enviar{
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
 }
 
 footer {
@@ -139,4 +175,13 @@ footer img {
   height: 100px;
   display: block;
   margin: 0 auto;
+}
+
+.texto_footer{
+  display: flex;
+  max-width: 45%;
+  word-break: normal;
+  word-spacing: 2px;
+  text-align: center;
+  
 }
