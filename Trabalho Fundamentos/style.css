@@ -91,9 +91,12 @@ nav ol {
   text-align: center;
   margin-top: auto;
   margin-right: 8em;
-  margin-left: 8em;
+  margin-left: 13em;
   display: flex;
   justify-content: space-around;
+}
+.text a{
+  max-width: 50%;
 }
 
 .galeria_fundo {
@@ -153,6 +156,66 @@ nav ol {
   display: flex;
   justify-content: center;
   padding-top: 1em;
+}
+.cabecalho_texto{
+padding-top: 4em;
+padding-left: 2em;
+}
+.informacao_conteudo{
+display: flex;
+color: rgb(165, 164, 164);
+word-spacing: 4px;
+font-size: small;
+padding-left: 2em;
+}
+.informacao_conteudo span{
+  padding-top: 1em;
+}
+.logo_conteudo{
+  width: 80px;
+  height: 40px;
+  border-radius: 80%;
+}
+.conteudo_first_image{
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+  width: 800px;
+  height: 360px;
+
+}
+.paragrafo{
+  display: flex;
+  justify-content: center;
+  word-wrap: break-word;
+  word-spacing: 4px;
+  padding-left: 2em;
+  font-size: large;
+}
+
+.lista_conteudo{
+
+  margin-bottom: 1em;
+  word-spacing: 4px;
+  font-size: large;
+  word-wrap: break-word;
+}
+.table_pos{
+display: flex;
+justify-content: flex-start;
+}
+.table{
+display:flex;
+justify-content: center;
+width: 25%;
+padding-left: 4em;
+text-align: center;
+padding-bottom: 2em;
+
+}
+.table th,td{
+  border: 3px solid rgb(80, 78, 80);
+  padding: 3px;
 }
 
 footer {
