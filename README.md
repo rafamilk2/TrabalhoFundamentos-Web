@@ -1,2 +1,2 @@
 # TrabalhoFundamentos-Web
-Inteligencia artificial aplicada a jogos eletronicos
+Documento com as explicações devidas de cada item do Trabalho.
