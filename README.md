@@ -4,6 +4,7 @@ Documento com as explicações devidas de cada item do Trabalho.
 
 1 - A respeito do site responsivo, nao existem alteraçoes significantes no layout do site com os media queries, porem eles servem para deixar os textos e imagens concisas
 no texto. Não extrapolando os limites impostos pela alteraçao da tela.
+@media (min-width: 1024px) e @media (min-width: 768px)  foram utilizados.
 
 2 - Foram criados 4 paginas com conteudos distintos representadas como conteudo1,2,3 e 4 que podem ser acessados através das imagens do menu alem do index.
 
